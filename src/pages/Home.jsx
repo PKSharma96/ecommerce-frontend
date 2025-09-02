@@ -1,13 +1,10 @@
 import React from 'react';
 
-const Home = () => {
-    return (
-        <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-4">Welcome to Our E-Commerce Site</h1>
-            <p className="mb-4">Discover our featured products below:</p>
-            {/* Add featured products here */}
-        </div>
-    );
-};
+const Home = () => (
+  <div className="p-8">
+    <h2 className="text-2xl font-bold mb-4">Welcome to E-Commerce!</h2>
+    <p>Discover amazing products and deals. Start shopping now!</p>
+  </div>
+);
 
 export default Home;
